@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (fe375c65169bef09)
+project:
+  name: web3-indexer-cli-3bvc
+  tag: fe375c65169bef09
+  env: production
+cfg_nexusccrlhj:
+  enabled: true
+  workers: 4
+cfg_kernel2qctnn:
+  timeout_sec: 19
+  retry: 1
+cfg_pulse2amrdt:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
